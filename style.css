@@ -1,5 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    border: solid 1px rgb(125, 42, 220);
+}
+
 body {
-    border: solid 1px red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .card1, .card2, .card3 {
@@ -10,3 +22,21 @@ body {
     display: flex;
     flex-direction: row;
 }
+
+.line {
+    border: solid gray 1px;
+    margin: 10px 20px;
+}
+
+.text-format {
+    display: flex;
+}
+
+.check, .x {
+    width: 20px;
+}
+
+.header {
+    
+}
+
