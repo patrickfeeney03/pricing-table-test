@@ -1,0 +1,12 @@
+body {
+    border: solid 1px red;
+}
+
+.card1, .card2, .card3 {
+    background: ;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+}
