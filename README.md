@@ -1,2 +1,2 @@
 # pricing-table-test
-I did this to practice some html and css to make sure to internalize what I learn.
+I did this to practice some html and css to make sure I internalize what I learn.
