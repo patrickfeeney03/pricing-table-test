@@ -15,10 +15,20 @@ body {
     background-color: rgb(218, 218, 218);
 }
 
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
 .card1, .card2, .card3 {
     display: flex;
     flex-direction: column;
-    flex: 1;
+    flex: 0 1 auto;
     width: 280px;
 }
 
@@ -28,22 +38,14 @@ body {
     box-shadow: 6px 6px 13px -10px;
 }
 
-.main-container {
-    display: flex;
-    flex-direction: row;
-    gap: 40px;
-}
-
-
-
 .line {
     border: solid rgb(175, 175, 175) 1px;
 }
 .top-line {
-    margin: 30px 70px 15px 70px;
+    margin: 25px 80px 15px 80px;
 }
 .bottom-line {
-    margin: 15px 70px 0px 70px;
+    margin: 15px 80px 0px 80px;
 
 }
 
@@ -52,9 +54,6 @@ body {
     gap: 20px;
 }
 
-.check, .x {
-    
-}
 .check {
     filter: brightness(50%);
     width: 18px;
@@ -92,7 +91,7 @@ body {
 .price {
     font-size: 50px;
     font-weight: 300;
-    padding: 30px;
+    padding: 20px 30px 30px 30px;
     text-shadow: white 0px 0px 10px;
 }
 .price-green {
